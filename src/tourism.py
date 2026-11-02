@@ -1,16 +1,16 @@
 """
-tourism.py - shared helper functions for the CS316 tourism project.
+Shared helpers for the CS316 tourism project.
 
-All three notebooks import this file so that the data loading, feature
-engineering and evaluation code exists in ONE place only (no copy-paste).
+All three notebooks import this module, so data loading, feature engineering
+and evaluation are defined in a single place.
 
-Main parts
-1. Loading:   read sheets I6 (inbound) and D5 (domestic) from the Ministry of
-              Tourism workbook and reshape them into a tidy "long" table.
-2. Memory:    shrink the table with smaller data types (rubric: memory optimisation).
-3. Calendar:  Ramadan / Hajj days per month (known in advance -> no leakage).
-4. Features:  lag features that only use information from earlier months.
-5. Metrics:   MAE, RMSE, WAPE, R2 and the "forecast accuracy" = 100% - WAPE.
+Contents
+1. Loading:   parse sheets D5 (domestic) and I6 (inbound) of the Ministry of
+              Tourism workbook into a tidy long table.
+2. Memory:    downcast dtypes to reduce memory usage.
+3. Calendar:  Ramadan / Hajj / pre-Hajj days per month (known in advance).
+4. Features:  lag and calendar features that use only earlier months.
+5. Metrics:   MAE, RMSE, WAPE, R2, MAPE and forecast accuracy = 100 - WAPE.
 """
 
 from pathlib import Path
@@ -36,10 +36,10 @@ INDICATORS = {"Tourists Number (Overnight Visitors)": "tourists",
 
 
 def find_dataset(filename="DDS_MT_Master_Sheet_2021_2025.xlsx"):
-    """Return the path of the Excel file.
+    """Return the path of the workbook, searching the usual locations.
 
-    We search a few likely folders so the same notebook works locally
-    (run from notebooks/) and in Google Colab (run from /content).
+    Covers running from the project root, from notebooks/, and from /content
+    in Google Colab. Raises FileNotFoundError if the file is in none of them.
     """
     candidates = [Path("data") / filename, Path("../data") / filename,
                   Path(filename), Path("/content") / filename,
@@ -61,8 +61,9 @@ def load_sheet(path, sheet):
     # header=None: read every cell as data, we locate the header ourselves.
     raw = pd.read_excel(path, sheet_name=sheet, header=None)
 
-    # The row whose 3rd column says "Month" holds the Arabic city names;
-    # the row below it holds the English names, the row above the provinces.
+    # The header row is located by the "Month" label in column C. It holds the
+    # Arabic destination names; the English names are one row below and the
+    # (merged) province names one row above.
     hdr = raw.index[raw[2].astype(str).str.strip() == "Month"][0]
     dest_cols = list(range(4, 45))           # 41 destination columns (E..AS)
     total_col = 45                           # column AT = TOTAL
@@ -73,8 +74,8 @@ def load_sheet(path, sheet):
 
     data = raw.loc[hdr + 2:, [1, 2, 3] + dest_cols + [total_col]].copy()
     data.columns = ["year", "month", "indicator"] + list(names) + ["TOTAL"]
-    # Forward fill is valid here: it only copies the label written above
-    # (layout), it does NOT fill any measured value.
+    # Year and month labels appear only once per block, so forward-fill them.
+    # This fills layout labels only, never measured values.
     data[["year", "month"]] = data[["year", "month"]].ffill()
     data = data[data["indicator"].isin(INDICATORS)]      # drop blank rows
     data = data[data["year"].astype(str) != "Total"]     # drop yearly totals
@@ -105,7 +106,11 @@ def load_sheet(path, sheet):
 
 
 def load_tourism(path=None):
-    """Load D5 + I6 and return (destinations table, national TOTAL table)."""
+    """Load D5 and I6 and return (destinations, national totals).
+
+    `dests` has one row per tourist type, destination and month (41 x 2 x 60),
+    sorted so each series is in date order; `totals` holds the official TOTAL column.
+    """
     path = path or find_dataset()
     both = pd.concat([load_sheet(path, s) for s in SHEETS], ignore_index=True)
     totals = both[both["destination"] == "TOTAL"].reset_index(drop=True)
@@ -117,7 +122,7 @@ def load_tourism(path=None):
 def check_totals(dests, totals):
     """Largest relative gap between the sum of destinations and the TOTAL column.
 
-    A value close to 0 proves that our parsing kept every destination value.
+    Used as a parsing check: a value close to 0 means no destination value was lost.
     """
     s = dests.groupby(["tourist_type", "date"])[["tourists", "spending_sar"]].sum()
     t = totals.set_index(["tourist_type", "date"])[["tourists", "spending_sar"]]
@@ -131,10 +136,10 @@ def check_totals(dests, totals):
 def optimize_memory(df):
     """Return a copy that uses less memory.
 
-    - text columns with few distinct values -> 'category' (stored as codes)
-    - int64 -> smallest integer type, float64 -> float32
-    float32 keeps ~7 significant digits, enough for counts below 16 million.
-    Spending (billions of SAR) is kept as float64 to avoid rounding money.
+    - text columns -> 'category' (each label stored once, rows hold integer codes)
+    - integers -> smallest integer type that fits
+    - floats -> float32 (~7 significant digits), except spending_sar, which is
+      kept as float64 because monthly spending reaches billions of SAR.
     """
     out = df.copy()
     for col in out.columns:
@@ -174,7 +179,10 @@ PRE_HAJJ = {y: (str((pd.Timestamp(a) - pd.Timedelta(days=30)).date()),
 
 
 def days_in_month(periods, month_start):
-    """Number of days of the given events that fall inside the month."""
+    """Count the days of the month starting at `month_start` covered by any period.
+
+    `periods` maps year -> (first_day, last_day), inclusive.
+    """
     month_days = pd.date_range(month_start, month_start + pd.offsets.MonthEnd(0))
     event_days = set()
     for start, end in periods.values():
@@ -183,7 +191,7 @@ def days_in_month(periods, month_start):
 
 
 def calendar_table(dates):
-    """Ramadan / Hajj days for each month start in `dates`."""
+    """Return Ramadan, Hajj and pre-Hajj day counts for each distinct month start in `dates`."""
     dates = pd.DatetimeIndex(sorted(set(dates)))
     return pd.DataFrame({"date": dates,
                          "ramadan_days": [days_in_month(RAMADAN, d) for d in dates],
@@ -196,10 +204,10 @@ def calendar_table(dates):
 # ---------------------------------------------------------------------------
 
 def eligible_series(dests):
-    """Series (tourist_type, destination) with 60 observed, positive counts.
+    """Return the (tourist_type, destination) pairs observed and > 0 in every month.
 
-    We only forecast series whose target is genuinely observed in every month:
-    we never invent target values, and a reported 0 may mean "not reported".
+    Only these series are modelled, so no target value is ever imputed. Zeros
+    are excluded too, because in I6 a 0 can mean "not reported".
     """
     ok = dests.groupby(["tourist_type", "destination"])["tourists"].apply(
         lambda s: s.notna().all() and (s > 0).all())
@@ -209,10 +217,10 @@ def eligible_series(dests):
 def build_features(dests):
     """Create the modelling table for one-month-ahead forecasts.
 
-    Everything is on the log scale, log(1 + tourists), because counts range
-    from hundreds to millions and seasonal changes are multiplicative.
-    For a forecast of month t, only months t-1, t-2, ... are used, so every
-    feature would really be known at the end of month t-1 (no future data).
+    Counts are modelled as log(1 + tourists) because they range from hundreds
+    to millions and seasonal effects are multiplicative. Every feature for
+    month t uses only months t-1 and earlier, or calendar dates known in advance.
+    Rows near the start of each series have NaN lags; callers drop them.
     """
     keep = eligible_series(dests)
     df = dests.set_index(["tourist_type", "destination"]).loc[keep].reset_index()
@@ -220,20 +228,22 @@ def build_features(dests):
     df["log_y"] = np.log1p(df["tourists"].astype(float))
     g = df.groupby(["tourist_type", "destination"], observed=True)["log_y"]
 
-    # Lags: value k months before t (shift moves values down within each series).
+    # lag k = log value k months earlier in the same series. Requires the rows to be
+    # sorted by date within each series (done above). lag24 is computed but not
+    # used in any feature group below.
     for k in [1, 2, 3, 12, 13, 14, 15, 24]:
         df[f"lag{k}"] = g.shift(k)
-    # Year-over-year growth seen in the most recent months (log ratios).
+    # Year-over-year growth of the last three observed months (differences of logs).
     df["yoy1"] = df["lag1"] - df["lag13"]
     df["yoy2"] = df["lag2"] - df["lag14"]
     df["yoy3"] = df["lag3"] - df["lag15"]
     df["yoy_mean3"] = df[["yoy1", "yoy2", "yoy3"]].mean(axis=1)
-    # Month-to-month change one year earlier: how month t compared to t-1 last year.
+    # How month t compared with month t-1 one year ago (expected seasonal step).
     df["seasonal_step"] = df["lag12"] - df["lag13"]
-    # Rolling mean of the last 3 observed months (uses t-1..t-3 only).
+    # Mean of the last three observed months (t-1..t-3), on the log scale.
     df["roll3"] = df[["lag1", "lag2", "lag3"]].mean(axis=1)
 
-    # Calendar features: month as a circle (Dec is next to Jan) + religious seasons.
+    # Cyclical month encoding so December and January are close together.
     df["month_sin"] = np.sin(2 * np.pi * df["month"] / 12)
     df["month_cos"] = np.cos(2 * np.pi * df["month"] / 12)
     cal = calendar_table(pd.date_range("2020-01-01", "2025-12-01", freq="MS"))
@@ -242,12 +252,13 @@ def build_features(dests):
         cal_last_year.rename(columns={"ramadan_days": "ramadan_ly", "hajj_days": "hajj_ly",
                                       "prehajj_days": "prehajj_ly"}),
         on="date", how="left")
-    # Change compared with the same month last year (copying last year would miss this).
+    # Calendar change versus the same month last year: lag12 already carries last
+    # year's calendar, so the model needs to know how this year differs.
     df["ramadan_change"] = df["ramadan_days"] - df["ramadan_ly"]
     df["hajj_change"] = df["hajj_days"] - df["hajj_ly"]
     df["prehajj_change"] = df["prehajj_days"] - df["prehajj_ly"]
-    # Religious seasons matter mostly for the holy cities (Makkah & Madinah
-    # provinces), so we multiply the changes by a holy-province indicator.
+    # Religious seasons mainly affect the Makkah and Madinah provinces, so these
+    # interaction terms are zero everywhere else.
     holy = df["province"].isin(["Makkah", "Madinah"]).astype(int)
     for c in ["ramadan_change", "hajj_change", "prehajj_change"]:
         df[f"holy_{c}"] = holy * df[c]
@@ -257,7 +268,7 @@ def build_features(dests):
     return df
 
 
-# Feature groups used in the experiments of notebook 02.
+# Feature groups compared in notebook 03.
 FEATURES_BASIC = ["lag1", "lag12", "lag13"]
 FEATURES_LAGS = FEATURES_BASIC + ["lag2", "lag3", "lag14", "lag15",
                                   "yoy1", "yoy2", "yoy3", "yoy_mean3",
@@ -274,15 +285,14 @@ FEATURES_ALL = FEATURES_LAGS + FEATURES_CAL + FEATURES_HOLY + FEATURES_CAT
 # ---------------------------------------------------------------------------
 
 def regression_metrics(y_true, y_pred):
-    """Metrics on the ORIGINAL scale (number of tourists).
+    """Regression metrics on the original scale (number of tourists).
 
-    MAE   = mean |error|                         (tourists)
-    RMSE  = sqrt(mean error^2)                   (tourists, punishes big misses)
-    WAPE  = sum |error| / sum actual * 100       (% of all tourists mis-forecast)
-    Accuracy = 100 - WAPE                        (share of tourists forecast correctly;
-                                                  NOT classification accuracy)
-    R2    = 1 - SSE / SST                        (explained variation)
-    MAPE  = mean(|error| / actual) * 100         (every series weighs the same)
+    MAE      = mean |error|                     (tourists)
+    RMSE     = sqrt(mean error^2)               (tourists; penalises large misses)
+    WAPE     = sum |error| / sum actual * 100   (% of all tourists mis-forecast)
+    Accuracy = 100 - WAPE                       (not classification accuracy)
+    R2       = 1 - SSE / SST
+    MAPE     = mean(|error| / actual) * 100     (each row weighted equally)
     """
     y_true = np.asarray(y_true, dtype=float)
     y_pred = np.asarray(y_pred, dtype=float)
