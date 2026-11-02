@@ -1,0 +1,4 @@
+stage,memory_MB,reduction_vs_tidy_%
+"Raw sheets I6 + D5 (wide, as read)",0.48007678985595703,
+Tidy table (default dtypes),0.9850616455078125,0.0
+Tidy table (optimised dtypes),0.1298379898071289,86.81930309648837

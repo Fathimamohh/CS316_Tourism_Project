@@ -1,0 +1,625 @@
+series,tourist_type,destination,date,tourists,pred
+Domestic | Abha,Domestic,Abha,2025-01-01,122703.0,138115.72731054804
+Domestic | Abha,Domestic,Abha,2025-02-01,120778.0,134563.59141516246
+Domestic | Abha,Domestic,Abha,2025-03-01,115280.0,161327.23802692836
+Domestic | Abha,Domestic,Abha,2025-04-01,145211.0,149977.76429290455
+Domestic | Abha,Domestic,Abha,2025-05-01,210439.0,160379.36818990094
+Domestic | Abha,Domestic,Abha,2025-06-01,223720.0,259554.22941324225
+Domestic | Abha,Domestic,Abha,2025-07-01,331205.0,222144.43951255715
+Domestic | Abha,Domestic,Abha,2025-08-01,331443.0,277240.6245903174
+Domestic | Abha,Domestic,Abha,2025-09-01,138269.0,201419.4122356903
+Domestic | Abha,Domestic,Abha,2025-10-01,131721.0,146317.42085080422
+Domestic | Abha,Domestic,Abha,2025-11-01,130204.0,135205.81715408326
+Domestic | Abha,Domestic,Abha,2025-12-01,111569.0,118240.39021512274
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-01-01,231351.0,276882.07616483426
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-02-01,212251.0,277884.8249422722
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-03-01,198475.0,234688.99727615912
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-04-01,174570.0,227149.52817035504
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-05-01,200517.0,186878.00020623568
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-06-01,210703.0,251106.55319136684
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-07-01,190745.0,198853.66150972262
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-08-01,196809.0,210579.2714029481
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-09-01,192860.0,210312.25351699273
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-10-01,202015.0,212193.9425711089
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-11-01,222349.0,217715.54159268807
+Domestic | Al Ahsa,Domestic,Al Ahsa,2025-12-01,199684.0,219117.30731772014
+Domestic | Al Bahah,Domestic,Al Bahah,2025-01-01,26174.0,28837.77377234628
+Domestic | Al Bahah,Domestic,Al Bahah,2025-02-01,24597.0,30728.91786814549
+Domestic | Al Bahah,Domestic,Al Bahah,2025-03-01,28974.0,30543.672304909036
+Domestic | Al Bahah,Domestic,Al Bahah,2025-04-01,30272.0,37803.15891687193
+Domestic | Al Bahah,Domestic,Al Bahah,2025-05-01,41926.0,35125.398116756674
+Domestic | Al Bahah,Domestic,Al Bahah,2025-06-01,71607.0,55040.9468088429
+Domestic | Al Bahah,Domestic,Al Bahah,2025-07-01,110453.0,65845.8987117715
+Domestic | Al Bahah,Domestic,Al Bahah,2025-08-01,115554.0,70884.28693520157
+Domestic | Al Bahah,Domestic,Al Bahah,2025-09-01,30239.0,66788.40459189207
+Domestic | Al Bahah,Domestic,Al Bahah,2025-10-01,29372.0,35884.945715571885
+Domestic | Al Bahah,Domestic,Al Bahah,2025-11-01,29537.0,28006.191833734454
+Domestic | Al Bahah,Domestic,Al Bahah,2025-12-01,21409.0,25403.044780445187
+Domestic | Al Khobar,Domestic,Al Khobar,2025-01-01,200637.0,172075.28533210474
+Domestic | Al Khobar,Domestic,Al Khobar,2025-02-01,178196.0,189001.0814196299
+Domestic | Al Khobar,Domestic,Al Khobar,2025-03-01,123873.0,143354.67765601884
+Domestic | Al Khobar,Domestic,Al Khobar,2025-04-01,212241.0,166012.06500234792
+Domestic | Al Khobar,Domestic,Al Khobar,2025-05-01,230267.0,170683.9273335746
+Domestic | Al Khobar,Domestic,Al Khobar,2025-06-01,202814.0,216240.49547548246
+Domestic | Al Khobar,Domestic,Al Khobar,2025-07-01,202293.0,198432.19792173232
+Domestic | Al Khobar,Domestic,Al Khobar,2025-08-01,178329.0,188087.58728977293
+Domestic | Al Khobar,Domestic,Al Khobar,2025-09-01,153722.0,172377.5067080542
+Domestic | Al Khobar,Domestic,Al Khobar,2025-10-01,213023.0,172679.15715662486
+Domestic | Al Khobar,Domestic,Al Khobar,2025-11-01,252180.0,224146.20652298976
+Domestic | Al Khobar,Domestic,Al Khobar,2025-12-01,191558.0,187611.04154263012
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-01-01,29105.0,27889.21887498386
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-02-01,25448.0,29741.748254227583
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-03-01,27690.0,28778.995792959864
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-04-01,25461.0,28220.542563087274
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-05-01,31715.0,24540.73118860978
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-06-01,33166.0,41630.010681844404
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-07-01,35409.0,31551.462694555274
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-08-01,31068.0,28031.19279093075
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-09-01,26822.0,27011.871323355226
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-10-01,30476.0,26666.880604938196
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-11-01,33398.0,30348.620212505863
+Domestic | Al Qurayyat,Domestic,Al Qurayyat,2025-12-01,27801.0,27931.815297175093
+Domestic | Al Ula,Domestic,Al Ula,2025-01-01,49627.0,52675.33457958027
+Domestic | Al Ula,Domestic,Al Ula,2025-02-01,35069.0,50652.334693672274
+Domestic | Al Ula,Domestic,Al Ula,2025-03-01,28229.0,36927.13836968537
+Domestic | Al Ula,Domestic,Al Ula,2025-04-01,26218.0,39623.84006301373
+Domestic | Al Ula,Domestic,Al Ula,2025-05-01,25708.0,25285.5416621524
+Domestic | Al Ula,Domestic,Al Ula,2025-06-01,29632.0,37095.813977380436
+Domestic | Al Ula,Domestic,Al Ula,2025-07-01,27001.0,28461.26211504828
+Domestic | Al Ula,Domestic,Al Ula,2025-08-01,23463.0,25496.560486012037
+Domestic | Al Ula,Domestic,Al Ula,2025-09-01,22305.0,24114.92958873576
+Domestic | Al Ula,Domestic,Al Ula,2025-10-01,28972.0,26280.962907634595
+Domestic | Al Ula,Domestic,Al Ula,2025-11-01,38944.0,33234.92390115323
+Domestic | Al Ula,Domestic,Al Ula,2025-12-01,40430.0,38727.47717106518
+Domestic | Al Wajh,Domestic,Al Wajh,2025-01-01,16240.0,17397.6430244227
+Domestic | Al Wajh,Domestic,Al Wajh,2025-02-01,14953.0,19567.549685605758
+Domestic | Al Wajh,Domestic,Al Wajh,2025-03-01,13578.0,17040.313005587515
+Domestic | Al Wajh,Domestic,Al Wajh,2025-04-01,13770.0,15910.460680594737
+Domestic | Al Wajh,Domestic,Al Wajh,2025-05-01,15243.0,15355.089384325587
+Domestic | Al Wajh,Domestic,Al Wajh,2025-06-01,14911.0,18355.09713590094
+Domestic | Al Wajh,Domestic,Al Wajh,2025-07-01,16261.0,16262.77943653229
+Domestic | Al Wajh,Domestic,Al Wajh,2025-08-01,14841.0,16480.65769783625
+Domestic | Al Wajh,Domestic,Al Wajh,2025-09-01,13179.0,15351.731266822046
+Domestic | Al Wajh,Domestic,Al Wajh,2025-10-01,14772.0,13731.632802400762
+Domestic | Al Wajh,Domestic,Al Wajh,2025-11-01,15927.0,16216.686313702121
+Domestic | Al Wajh,Domestic,Al Wajh,2025-12-01,13268.0,15028.305112251095
+Domestic | Arar,Domestic,Arar,2025-01-01,62882.0,51679.112015044775
+Domestic | Arar,Domestic,Arar,2025-02-01,55751.0,55294.013465684446
+Domestic | Arar,Domestic,Arar,2025-03-01,50855.0,49537.55152449153
+Domestic | Arar,Domestic,Arar,2025-04-01,45794.0,49745.50663055482
+Domestic | Arar,Domestic,Arar,2025-05-01,49520.0,38543.35579319739
+Domestic | Arar,Domestic,Arar,2025-06-01,49288.0,68365.98747247747
+Domestic | Arar,Domestic,Arar,2025-07-01,49393.0,53268.527261693474
+Domestic | Arar,Domestic,Arar,2025-08-01,47301.0,60555.044460290475
+Domestic | Arar,Domestic,Arar,2025-09-01,46491.0,47240.49143759548
+Domestic | Arar,Domestic,Arar,2025-10-01,49320.0,47890.39872529635
+Domestic | Arar,Domestic,Arar,2025-11-01,56044.0,54838.175036009845
+Domestic | Arar,Domestic,Arar,2025-12-01,48218.0,49067.478517332944
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-01-01,11098.0,6313.057785174467
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-02-01,10206.0,6781.823122202791
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-03-01,14253.0,8848.323760122428
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-04-01,11038.0,14134.500519479292
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-05-01,16242.0,9367.868839751402
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-06-01,24219.0,22808.506802096057
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-07-01,39439.0,14456.495045471554
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-08-01,29258.0,19796.53001866307
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-09-01,9808.0,21729.429954041247
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-10-01,9701.0,7469.559214931073
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-11-01,13500.0,12475.82799652482
+Domestic | BILJURASHI,Domestic,BILJURASHI,2025-12-01,7426.0,9033.642805517475
+Domestic | Buraydah,Domestic,Buraydah,2025-01-01,192396.0,329210.24788551347
+Domestic | Buraydah,Domestic,Buraydah,2025-02-01,170453.0,284632.30108850205
+Domestic | Buraydah,Domestic,Buraydah,2025-03-01,162559.0,176219.31081088993
+Domestic | Buraydah,Domestic,Buraydah,2025-04-01,131844.0,181875.56012916056
+Domestic | Buraydah,Domestic,Buraydah,2025-05-01,162093.0,170734.717547592
+Domestic | Buraydah,Domestic,Buraydah,2025-06-01,167212.0,231837.05801506678
+Domestic | Buraydah,Domestic,Buraydah,2025-07-01,172199.0,169583.64375496857
+Domestic | Buraydah,Domestic,Buraydah,2025-08-01,166144.0,178676.72114756668
+Domestic | Buraydah,Domestic,Buraydah,2025-09-01,142378.0,181233.33193502415
+Domestic | Buraydah,Domestic,Buraydah,2025-10-01,158283.0,169661.36652727745
+Domestic | Buraydah,Domestic,Buraydah,2025-11-01,197250.0,177477.06985300357
+Domestic | Buraydah,Domestic,Buraydah,2025-12-01,155875.0,180359.53415381338
+Domestic | Dammam,Domestic,Dammam,2025-01-01,344436.0,371297.7801019194
+Domestic | Dammam,Domestic,Dammam,2025-02-01,295534.0,388804.5596323471
+Domestic | Dammam,Domestic,Dammam,2025-03-01,227161.0,306076.48810668226
+Domestic | Dammam,Domestic,Dammam,2025-04-01,286070.0,336931.81869391154
+Domestic | Dammam,Domestic,Dammam,2025-05-01,316215.0,290462.28514547396
+Domestic | Dammam,Domestic,Dammam,2025-06-01,299961.0,374016.3104883513
+Domestic | Dammam,Domestic,Dammam,2025-07-01,286585.0,345031.1532992923
+Domestic | Dammam,Domestic,Dammam,2025-08-01,264987.0,326109.7669664127
+Domestic | Dammam,Domestic,Dammam,2025-09-01,249554.0,338605.005625712
+Domestic | Dammam,Domestic,Dammam,2025-10-01,308035.0,314834.826574948
+Domestic | Dammam,Domestic,Dammam,2025-11-01,338923.0,331645.1909598466
+Domestic | Dammam,Domestic,Dammam,2025-12-01,323009.0,343958.3457696298
+Domestic | Duba,Domestic,Duba,2025-01-01,26364.0,26317.17460092318
+Domestic | Duba,Domestic,Duba,2025-02-01,30576.0,23715.565615442705
+Domestic | Duba,Domestic,Duba,2025-03-01,29369.0,28254.277684823017
+Domestic | Duba,Domestic,Duba,2025-04-01,33191.0,28264.291117620374
+Domestic | Duba,Domestic,Duba,2025-05-01,35230.0,27704.45979410448
+Domestic | Duba,Domestic,Duba,2025-06-01,34334.0,35182.36005501613
+Domestic | Duba,Domestic,Duba,2025-07-01,32956.0,32929.1178578831
+Domestic | Duba,Domestic,Duba,2025-08-01,30947.0,30365.307520385948
+Domestic | Duba,Domestic,Duba,2025-09-01,29898.0,27142.289717645057
+Domestic | Duba,Domestic,Duba,2025-10-01,30701.0,27707.678879808638
+Domestic | Duba,Domestic,Duba,2025-11-01,34120.0,28521.9467704971
+Domestic | Duba,Domestic,Duba,2025-12-01,31694.0,27670.205936420058
+Domestic | Hail,Domestic,Hail,2025-01-01,185650.0,140424.1761488116
+Domestic | Hail,Domestic,Hail,2025-02-01,157673.0,190746.92189196704
+Domestic | Hail,Domestic,Hail,2025-03-01,160060.0,129003.59402496764
+Domestic | Hail,Domestic,Hail,2025-04-01,134278.0,150520.67986441098
+Domestic | Hail,Domestic,Hail,2025-05-01,162241.0,132120.96437457707
+Domestic | Hail,Domestic,Hail,2025-06-01,176029.0,217098.43671858156
+Domestic | Hail,Domestic,Hail,2025-07-01,194066.0,164855.99493086938
+Domestic | Hail,Domestic,Hail,2025-08-01,169691.0,155527.130672497
+Domestic | Hail,Domestic,Hail,2025-09-01,136093.0,150928.0186578436
+Domestic | Hail,Domestic,Hail,2025-10-01,154424.0,149138.71310675403
+Domestic | Hail,Domestic,Hail,2025-11-01,215661.0,220907.885623928
+Domestic | Hail,Domestic,Hail,2025-12-01,165197.0,147225.13466883378
+Domestic | Jazan,Domestic,Jazan,2025-01-01,167583.0,153374.82106459187
+Domestic | Jazan,Domestic,Jazan,2025-02-01,114875.0,132552.8365830188
+Domestic | Jazan,Domestic,Jazan,2025-03-01,106544.0,106073.79657492434
+Domestic | Jazan,Domestic,Jazan,2025-04-01,88310.0,107465.92520960035
+Domestic | Jazan,Domestic,Jazan,2025-05-01,107644.0,77861.62179690722
+Domestic | Jazan,Domestic,Jazan,2025-06-01,122254.0,111682.17980075923
+Domestic | Jazan,Domestic,Jazan,2025-07-01,144578.0,97363.03880148829
+Domestic | Jazan,Domestic,Jazan,2025-08-01,126655.0,115794.22769147738
+Domestic | Jazan,Domestic,Jazan,2025-09-01,98258.0,114169.90678823466
+Domestic | Jazan,Domestic,Jazan,2025-10-01,125903.0,100900.30372491598
+Domestic | Jazan,Domestic,Jazan,2025-11-01,188389.0,131238.9174349874
+Domestic | Jazan,Domestic,Jazan,2025-12-01,171554.0,158084.6307865428
+Domestic | Jeddah,Domestic,Jeddah,2025-01-01,982980.0,844410.5852212327
+Domestic | Jeddah,Domestic,Jeddah,2025-02-01,830583.0,871153.3290420842
+Domestic | Jeddah,Domestic,Jeddah,2025-03-01,861084.0,849711.8327491612
+Domestic | Jeddah,Domestic,Jeddah,2025-04-01,788412.0,811222.9479376117
+Domestic | Jeddah,Domestic,Jeddah,2025-05-01,885565.0,663973.6808523759
+Domestic | Jeddah,Domestic,Jeddah,2025-06-01,813223.0,868077.0817594705
+Domestic | Jeddah,Domestic,Jeddah,2025-07-01,982902.0,823796.0055180661
+Domestic | Jeddah,Domestic,Jeddah,2025-08-01,854384.0,772891.9388946563
+Domestic | Jeddah,Domestic,Jeddah,2025-09-01,751327.0,759565.0492318141
+Domestic | Jeddah,Domestic,Jeddah,2025-10-01,824501.0,796435.124838691
+Domestic | Jeddah,Domestic,Jeddah,2025-11-01,998500.0,920170.0158657447
+Domestic | Jeddah,Domestic,Jeddah,2025-12-01,844754.0,855977.8239539744
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-01-01,88489.0,85676.15274970072
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-02-01,80419.0,94177.60179210539
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-03-01,85411.0,93211.02662630162
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-04-01,79246.0,96272.37752734554
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-05-01,105507.0,71866.2544588289
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-06-01,121025.0,198916.43790955623
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-07-01,159075.0,157046.5415712805
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-08-01,142553.0,113592.27344156962
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-09-01,79619.0,112538.50228464432
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-10-01,83187.0,89605.45645560233
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-11-01,83096.0,94746.53084715897
+Domestic | Khamis Mushait,Domestic,Khamis Mushait,2025-12-01,73382.0,84731.35637522816
+Domestic | Madinah,Domestic,Madinah,2025-01-01,445735.0,431590.1783034737
+Domestic | Madinah,Domestic,Madinah,2025-02-01,366805.0,438292.7495179928
+Domestic | Madinah,Domestic,Madinah,2025-03-01,515079.0,420809.23019597476
+Domestic | Madinah,Domestic,Madinah,2025-04-01,341456.0,469835.6845860936
+Domestic | Madinah,Domestic,Madinah,2025-05-01,311065.0,335075.96634590847
+Domestic | Madinah,Domestic,Madinah,2025-06-01,405478.0,451705.1712815728
+Domestic | Madinah,Domestic,Madinah,2025-07-01,466897.0,395034.1855419637
+Domestic | Madinah,Domestic,Madinah,2025-08-01,425204.0,379615.45525139594
+Domestic | Madinah,Domestic,Madinah,2025-09-01,348070.0,355245.3038982324
+Domestic | Madinah,Domestic,Madinah,2025-10-01,392204.0,369503.07272242435
+Domestic | Madinah,Domestic,Madinah,2025-11-01,469355.0,447596.5861142605
+Domestic | Madinah,Domestic,Madinah,2025-12-01,384888.0,407776.44768378587
+Domestic | Makkah,Domestic,Makkah,2025-01-01,988769.0,732442.2991170441
+Domestic | Makkah,Domestic,Makkah,2025-02-01,804406.0,765095.0660139902
+Domestic | Makkah,Domestic,Makkah,2025-03-01,3124927.0,1044575.9720074716
+Domestic | Makkah,Domestic,Makkah,2025-04-01,664273.0,915345.8184000675
+Domestic | Makkah,Domestic,Makkah,2025-05-01,696196.0,715298.7043400599
+Domestic | Makkah,Domestic,Makkah,2025-06-01,867765.0,960516.828946429
+Domestic | Makkah,Domestic,Makkah,2025-07-01,1015607.0,708265.9896156546
+Domestic | Makkah,Domestic,Makkah,2025-08-01,997881.0,744376.439548822
+Domestic | Makkah,Domestic,Makkah,2025-09-01,748014.0,837694.2850418076
+Domestic | Makkah,Domestic,Makkah,2025-10-01,860742.0,890677.7397476108
+Domestic | Makkah,Domestic,Makkah,2025-11-01,977703.0,961498.8811203697
+Domestic | Makkah,Domestic,Makkah,2025-12-01,846112.0,843712.1065298206
+Domestic | Najran,Domestic,Najran,2025-01-01,69720.0,82892.80492069291
+Domestic | Najran,Domestic,Najran,2025-02-01,64388.0,75959.9564207441
+Domestic | Najran,Domestic,Najran,2025-03-01,70990.0,88433.1445046985
+Domestic | Najran,Domestic,Najran,2025-04-01,63652.0,81695.41636106822
+Domestic | Najran,Domestic,Najran,2025-05-01,68488.0,59739.40232862099
+Domestic | Najran,Domestic,Najran,2025-06-01,79899.0,110118.48589168377
+Domestic | Najran,Domestic,Najran,2025-07-01,80675.0,74667.62926796294
+Domestic | Najran,Domestic,Najran,2025-08-01,72602.0,75985.97340459959
+Domestic | Najran,Domestic,Najran,2025-09-01,64064.0,69339.14714214884
+Domestic | Najran,Domestic,Najran,2025-10-01,66921.0,74256.81304292001
+Domestic | Najran,Domestic,Najran,2025-11-01,69387.0,80385.68605694424
+Domestic | Najran,Domestic,Najran,2025-12-01,65897.0,74914.8300038147
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-01-01,32924.0,13640.91569604917
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-02-01,25383.0,18835.125534304443
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-03-01,39840.0,19619.497912851515
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-04-01,22122.0,23962.09902371098
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-05-01,28422.0,21279.478798631517
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-06-01,38066.0,31729.00643278273
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-07-01,48570.0,28081.106604304656
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-08-01,40295.0,24648.10430392113
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-09-01,21054.0,25991.04392020238
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-10-01,23248.0,20358.17194260572
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-11-01,35062.0,21064.57490789489
+Domestic | Other AlBaha,Domestic,Other AlBaha,2025-12-01,21534.0,19122.045953564957
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-01-01,55203.0,13181.223363755094
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-02-01,47002.0,18808.472156013006
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-03-01,57777.0,33088.06628657993
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-04-01,33163.0,46614.307006210394
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-05-01,40108.0,36441.56747553429
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-06-01,53189.0,43891.430017708684
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-07-01,43853.0,34024.183422118476
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-08-01,40782.0,27852.567841473723
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-09-01,36421.0,30421.744393338813
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-10-01,40841.0,26552.5378003735
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-11-01,52092.0,28532.897796372145
+Domestic | Other AlQassim,Domestic,Other AlQassim,2025-12-01,37723.0,34792.18598257194
+Domestic | Other Aseer,Domestic,Other Aseer,2025-01-01,245780.0,209659.55181216443
+Domestic | Other Aseer,Domestic,Other Aseer,2025-02-01,191845.0,221349.77278089066
+Domestic | Other Aseer,Domestic,Other Aseer,2025-03-01,243962.0,200665.1277809861
+Domestic | Other Aseer,Domestic,Other Aseer,2025-04-01,158897.0,212716.04245071937
+Domestic | Other Aseer,Domestic,Other Aseer,2025-05-01,196055.0,160666.42803547226
+Domestic | Other Aseer,Domestic,Other Aseer,2025-06-01,224313.0,340175.0923272965
+Domestic | Other Aseer,Domestic,Other Aseer,2025-07-01,266183.0,193882.7630938636
+Domestic | Other Aseer,Domestic,Other Aseer,2025-08-01,251109.0,190691.65274716698
+Domestic | Other Aseer,Domestic,Other Aseer,2025-09-01,176134.0,206655.0262894553
+Domestic | Other Aseer,Domestic,Other Aseer,2025-10-01,203579.0,174411.73829829486
+Domestic | Other Aseer,Domestic,Other Aseer,2025-11-01,243668.0,225490.34425379394
+Domestic | Other Aseer,Domestic,Other Aseer,2025-12-01,211490.0,200722.32269865746
+Domestic | Other Eastern,Domestic,Other Eastern,2025-01-01,420933.0,334986.8770999696
+Domestic | Other Eastern,Domestic,Other Eastern,2025-02-01,371986.0,365699.7480553099
+Domestic | Other Eastern,Domestic,Other Eastern,2025-03-01,312981.0,350264.06058786996
+Domestic | Other Eastern,Domestic,Other Eastern,2025-04-01,343761.0,352245.25578011456
+Domestic | Other Eastern,Domestic,Other Eastern,2025-05-01,390217.0,349593.07586241345
+Domestic | Other Eastern,Domestic,Other Eastern,2025-06-01,405772.0,377292.1462498541
+Domestic | Other Eastern,Domestic,Other Eastern,2025-07-01,392281.0,349020.39330663066
+Domestic | Other Eastern,Domestic,Other Eastern,2025-08-01,374522.0,350686.0941137331
+Domestic | Other Eastern,Domestic,Other Eastern,2025-09-01,354223.0,346944.30080045055
+Domestic | Other Eastern,Domestic,Other Eastern,2025-10-01,399082.0,330625.17721487524
+Domestic | Other Eastern,Domestic,Other Eastern,2025-11-01,480417.0,380257.495769625
+Domestic | Other Eastern,Domestic,Other Eastern,2025-12-01,407202.0,392013.920252053
+Domestic | Other Jazan,Domestic,Other Jazan,2025-01-01,330544.0,259256.8742237264
+Domestic | Other Jazan,Domestic,Other Jazan,2025-02-01,244104.0,326056.5536560576
+Domestic | Other Jazan,Domestic,Other Jazan,2025-03-01,220380.0,194767.5905998033
+Domestic | Other Jazan,Domestic,Other Jazan,2025-04-01,189769.0,214875.5904768394
+Domestic | Other Jazan,Domestic,Other Jazan,2025-05-01,189990.0,179508.24993713223
+Domestic | Other Jazan,Domestic,Other Jazan,2025-06-01,209855.0,219351.63664962634
+Domestic | Other Jazan,Domestic,Other Jazan,2025-07-01,217696.0,161786.54573955623
+Domestic | Other Jazan,Domestic,Other Jazan,2025-08-01,208699.0,184030.2961315163
+Domestic | Other Jazan,Domestic,Other Jazan,2025-09-01,159392.0,171616.30141499158
+Domestic | Other Jazan,Domestic,Other Jazan,2025-10-01,196343.0,152719.92721617557
+Domestic | Other Jazan,Domestic,Other Jazan,2025-11-01,284257.0,261602.87305201634
+Domestic | Other Jazan,Domestic,Other Jazan,2025-12-01,260823.0,229154.8290491733
+Domestic | Other Jouf,Domestic,Other Jouf,2025-01-01,10540.0,7683.342774678729
+Domestic | Other Jouf,Domestic,Other Jouf,2025-02-01,9146.0,9601.304913099062
+Domestic | Other Jouf,Domestic,Other Jouf,2025-03-01,8149.0,8409.349491892108
+Domestic | Other Jouf,Domestic,Other Jouf,2025-04-01,9494.0,9208.354829440139
+Domestic | Other Jouf,Domestic,Other Jouf,2025-05-01,8358.0,8476.383149751347
+Domestic | Other Jouf,Domestic,Other Jouf,2025-06-01,9331.0,11624.22045715284
+Domestic | Other Jouf,Domestic,Other Jouf,2025-07-01,10317.0,10133.873976748308
+Domestic | Other Jouf,Domestic,Other Jouf,2025-08-01,9353.0,9523.255837506722
+Domestic | Other Jouf,Domestic,Other Jouf,2025-09-01,8062.0,7857.719243693616
+Domestic | Other Jouf,Domestic,Other Jouf,2025-10-01,8982.0,7181.370592843847
+Domestic | Other Jouf,Domestic,Other Jouf,2025-11-01,11839.0,9273.680501243727
+Domestic | Other Jouf,Domestic,Other Jouf,2025-12-01,10401.0,9493.786781863048
+Domestic | Other Madinah,Domestic,Other Madinah,2025-01-01,39019.0,12918.486546534386
+Domestic | Other Madinah,Domestic,Other Madinah,2025-02-01,34619.0,17073.451675228767
+Domestic | Other Madinah,Domestic,Other Madinah,2025-03-01,49645.0,25267.717514551354
+Domestic | Other Madinah,Domestic,Other Madinah,2025-04-01,27854.0,42748.9319316622
+Domestic | Other Madinah,Domestic,Other Madinah,2025-05-01,34488.0,31113.543344431397
+Domestic | Other Madinah,Domestic,Other Madinah,2025-06-01,43172.0,39064.44886298337
+Domestic | Other Madinah,Domestic,Other Madinah,2025-07-01,40175.0,26054.778264258417
+Domestic | Other Madinah,Domestic,Other Madinah,2025-08-01,33338.0,28334.543473744565
+Domestic | Other Madinah,Domestic,Other Madinah,2025-09-01,28060.0,29491.682596180464
+Domestic | Other Madinah,Domestic,Other Madinah,2025-10-01,32975.0,21893.638647750617
+Domestic | Other Madinah,Domestic,Other Madinah,2025-11-01,44514.0,26552.007584699386
+Domestic | Other Madinah,Domestic,Other Madinah,2025-12-01,33151.0,26848.102547354658
+Domestic | Other Makkah,Domestic,Other Makkah,2025-01-01,158771.0,220183.11879669584
+Domestic | Other Makkah,Domestic,Other Makkah,2025-02-01,151004.0,136113.95662964653
+Domestic | Other Makkah,Domestic,Other Makkah,2025-03-01,178424.0,127048.40099612989
+Domestic | Other Makkah,Domestic,Other Makkah,2025-04-01,134875.0,140800.48361411053
+Domestic | Other Makkah,Domestic,Other Makkah,2025-05-01,150542.0,162719.32369500276
+Domestic | Other Makkah,Domestic,Other Makkah,2025-06-01,171398.0,214337.3215024899
+Domestic | Other Makkah,Domestic,Other Makkah,2025-07-01,165520.0,120292.5182768252
+Domestic | Other Makkah,Domestic,Other Makkah,2025-08-01,141677.0,147376.93910449714
+Domestic | Other Makkah,Domestic,Other Makkah,2025-09-01,128183.0,126336.74754131224
+Domestic | Other Makkah,Domestic,Other Makkah,2025-10-01,149070.0,148531.27372730177
+Domestic | Other Makkah,Domestic,Other Makkah,2025-11-01,193304.0,218387.58150126875
+Domestic | Other Makkah,Domestic,Other Makkah,2025-12-01,171309.0,157455.87799168244
+Domestic | Other NB,Domestic,Other NB,2025-01-01,42666.0,31531.760002390467
+Domestic | Other NB,Domestic,Other NB,2025-02-01,36811.0,42277.211562950055
+Domestic | Other NB,Domestic,Other NB,2025-03-01,37361.0,42732.75744287588
+Domestic | Other NB,Domestic,Other NB,2025-04-01,34536.0,44135.30482574453
+Domestic | Other NB,Domestic,Other NB,2025-05-01,39031.0,28715.435855403633
+Domestic | Other NB,Domestic,Other NB,2025-06-01,42890.0,55026.25631893984
+Domestic | Other NB,Domestic,Other NB,2025-07-01,43907.0,42689.11517728143
+Domestic | Other NB,Domestic,Other NB,2025-08-01,40893.0,39940.54551589884
+Domestic | Other NB,Domestic,Other NB,2025-09-01,36633.0,29012.168169084463
+Domestic | Other NB,Domestic,Other NB,2025-10-01,38929.0,34727.10500983417
+Domestic | Other NB,Domestic,Other NB,2025-11-01,43973.0,47314.003976905486
+Domestic | Other NB,Domestic,Other NB,2025-12-01,35231.0,38916.83971687241
+Domestic | Other Najran,Domestic,Other Najran,2025-01-01,34549.0,20602.840867071984
+Domestic | Other Najran,Domestic,Other Najran,2025-02-01,38418.0,19468.699940861956
+Domestic | Other Najran,Domestic,Other Najran,2025-03-01,46888.0,21394.019578066414
+Domestic | Other Najran,Domestic,Other Najran,2025-04-01,35357.0,31382.949235068434
+Domestic | Other Najran,Domestic,Other Najran,2025-05-01,37487.0,29344.036228574885
+Domestic | Other Najran,Domestic,Other Najran,2025-06-01,49447.0,47565.0827406056
+Domestic | Other Najran,Domestic,Other Najran,2025-07-01,39248.0,34114.00390032833
+Domestic | Other Najran,Domestic,Other Najran,2025-08-01,34619.0,27789.751583768866
+Domestic | Other Najran,Domestic,Other Najran,2025-09-01,31984.0,26863.215634408323
+Domestic | Other Najran,Domestic,Other Najran,2025-10-01,36004.0,26835.839382100417
+Domestic | Other Najran,Domestic,Other Najran,2025-11-01,37242.0,37319.046678230436
+Domestic | Other Najran,Domestic,Other Najran,2025-12-01,33820.0,25109.019816881355
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-01-01,584400.0,352604.9025245152
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-02-01,520600.0,392047.14764624386
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-03-01,509240.0,425988.0647337134
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-04-01,424125.0,512539.03590317356
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-05-01,468376.0,471387.0306624994
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-06-01,534175.0,519216.5065942945
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-07-01,465406.0,410578.7593431754
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-08-01,458467.0,374357.43678918754
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-09-01,453607.0,407736.27413812344
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-10-01,517927.0,368104.69910488743
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-11-01,589692.0,427969.7627288678
+Domestic | Other Riyadh,Domestic,Other Riyadh,2025-12-01,538492.0,434244.29906425084
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-01-01,27972.0,27626.56405662235
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-02-01,24270.0,31272.290356332873
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-03-01,29236.0,28146.733963298615
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-04-01,35771.0,35201.90201451096
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-05-01,48473.0,35359.114126444
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-06-01,53653.0,54963.12195685578
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-07-01,68462.0,56224.2361066706
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-08-01,52667.0,49279.03579551578
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-09-01,28901.0,35226.99906536152
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-10-01,32520.0,30481.431070475326
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-11-01,32504.0,31703.00690254035
+Domestic | Other Tabuk,Domestic,Other Tabuk,2025-12-01,23910.0,26319.497914636726
+Domestic | Rabigh,Domestic,Rabigh,2025-01-01,49580.0,45090.024821794184
+Domestic | Rabigh,Domestic,Rabigh,2025-02-01,41817.0,44469.399940532836
+Domestic | Rabigh,Domestic,Rabigh,2025-03-01,39584.0,39141.4627569545
+Domestic | Rabigh,Domestic,Rabigh,2025-04-01,42013.0,45635.93020078221
+Domestic | Rabigh,Domestic,Rabigh,2025-05-01,41644.0,34551.39399364556
+Domestic | Rabigh,Domestic,Rabigh,2025-06-01,41936.0,56025.528927996114
+Domestic | Rabigh,Domestic,Rabigh,2025-07-01,44940.0,42312.556433117126
+Domestic | Rabigh,Domestic,Rabigh,2025-08-01,49359.0,39486.863473810125
+Domestic | Rabigh,Domestic,Rabigh,2025-09-01,41380.0,39022.98173401913
+Domestic | Rabigh,Domestic,Rabigh,2025-10-01,45052.0,39794.46100238423
+Domestic | Rabigh,Domestic,Rabigh,2025-11-01,54255.0,46941.055271700854
+Domestic | Rabigh,Domestic,Rabigh,2025-12-01,47439.0,43697.79913012063
+Domestic | Rass,Domestic,Rass,2025-01-01,30925.0,19013.760463711726
+Domestic | Rass,Domestic,Rass,2025-02-01,25864.0,29014.44607846731
+Domestic | Rass,Domestic,Rass,2025-03-01,33519.0,18703.901881315127
+Domestic | Rass,Domestic,Rass,2025-04-01,16966.0,29094.33018676936
+Domestic | Rass,Domestic,Rass,2025-05-01,22833.0,23250.478526010822
+Domestic | Rass,Domestic,Rass,2025-06-01,28153.0,22517.39714378488
+Domestic | Rass,Domestic,Rass,2025-07-01,25060.0,18487.758689938357
+Domestic | Rass,Domestic,Rass,2025-08-01,21783.0,18438.104954251943
+Domestic | Rass,Domestic,Rass,2025-09-01,18013.0,23901.756510150717
+Domestic | Rass,Domestic,Rass,2025-10-01,20480.0,16499.435157595624
+Domestic | Rass,Domestic,Rass,2025-11-01,28283.0,20578.30692093182
+Domestic | Rass,Domestic,Rass,2025-12-01,19225.0,23084.2984662267
+Domestic | Riyadh,Domestic,Riyadh,2025-01-01,1509480.0,1392756.074747334
+Domestic | Riyadh,Domestic,Riyadh,2025-02-01,1317054.0,1388999.599216125
+Domestic | Riyadh,Domestic,Riyadh,2025-03-01,991798.0,998316.7300087957
+Domestic | Riyadh,Domestic,Riyadh,2025-04-01,1208912.0,1044248.9382512681
+Domestic | Riyadh,Domestic,Riyadh,2025-05-01,1352390.0,913035.1421530572
+Domestic | Riyadh,Domestic,Riyadh,2025-06-01,1244673.0,1138330.0175189122
+Domestic | Riyadh,Domestic,Riyadh,2025-07-01,1407756.0,1125589.2830089205
+Domestic | Riyadh,Domestic,Riyadh,2025-08-01,1298371.0,1111911.6410926296
+Domestic | Riyadh,Domestic,Riyadh,2025-09-01,1185375.0,1044481.8831986869
+Domestic | Riyadh,Domestic,Riyadh,2025-10-01,1346656.0,1150989.6399016466
+Domestic | Riyadh,Domestic,Riyadh,2025-11-01,1515110.0,1411895.991595913
+Domestic | Riyadh,Domestic,Riyadh,2025-12-01,1324216.0,1413192.4454789876
+Domestic | Sakaka,Domestic,Sakaka,2025-01-01,96852.0,61592.08395182439
+Domestic | Sakaka,Domestic,Sakaka,2025-02-01,92275.0,74092.64787879809
+Domestic | Sakaka,Domestic,Sakaka,2025-03-01,80739.0,71522.49972124971
+Domestic | Sakaka,Domestic,Sakaka,2025-04-01,85628.0,83584.81910863922
+Domestic | Sakaka,Domestic,Sakaka,2025-05-01,96786.0,72484.40070244689
+Domestic | Sakaka,Domestic,Sakaka,2025-06-01,96539.0,105815.49492078133
+Domestic | Sakaka,Domestic,Sakaka,2025-07-01,118647.0,82789.95794477817
+Domestic | Sakaka,Domestic,Sakaka,2025-08-01,106913.0,104005.37501280672
+Domestic | Sakaka,Domestic,Sakaka,2025-09-01,81296.0,87961.3829450299
+Domestic | Sakaka,Domestic,Sakaka,2025-10-01,89094.0,79754.50929036485
+Domestic | Sakaka,Domestic,Sakaka,2025-11-01,100604.0,85376.89976329234
+Domestic | Sakaka,Domestic,Sakaka,2025-12-01,85929.0,88943.92361861367
+Domestic | Tabuk,Domestic,Tabuk,2025-01-01,120154.0,162767.79836116818
+Domestic | Tabuk,Domestic,Tabuk,2025-02-01,110739.0,156139.26875035084
+Domestic | Tabuk,Domestic,Tabuk,2025-03-01,96584.0,130156.58958216972
+Domestic | Tabuk,Domestic,Tabuk,2025-04-01,101681.0,112463.19050795054
+Domestic | Tabuk,Domestic,Tabuk,2025-05-01,125108.0,109598.55526989096
+Domestic | Tabuk,Domestic,Tabuk,2025-06-01,122914.0,153082.89818814045
+Domestic | Tabuk,Domestic,Tabuk,2025-07-01,145659.0,142555.9759473975
+Domestic | Tabuk,Domestic,Tabuk,2025-08-01,132563.0,133206.23314090545
+Domestic | Tabuk,Domestic,Tabuk,2025-09-01,105036.0,120072.39633559798
+Domestic | Tabuk,Domestic,Tabuk,2025-10-01,108871.0,122582.18954334833
+Domestic | Tabuk,Domestic,Tabuk,2025-11-01,117305.0,127880.20191767487
+Domestic | Tabuk,Domestic,Tabuk,2025-12-01,101875.0,120215.34807820983
+Domestic | Taif,Domestic,Taif,2025-01-01,181650.0,197591.7853957443
+Domestic | Taif,Domestic,Taif,2025-02-01,168275.0,195708.27935557312
+Domestic | Taif,Domestic,Taif,2025-03-01,240341.0,190402.2822726352
+Domestic | Taif,Domestic,Taif,2025-04-01,239183.0,218372.67198931955
+Domestic | Taif,Domestic,Taif,2025-05-01,242084.0,196644.06884593738
+Domestic | Taif,Domestic,Taif,2025-06-01,314976.0,426216.168868478
+Domestic | Taif,Domestic,Taif,2025-07-01,444305.0,344114.36133073654
+Domestic | Taif,Domestic,Taif,2025-08-01,524485.0,346360.11926132016
+Domestic | Taif,Domestic,Taif,2025-09-01,219149.0,353163.9843884677
+Domestic | Taif,Domestic,Taif,2025-10-01,215287.0,270161.19230687415
+Domestic | Taif,Domestic,Taif,2025-11-01,233542.0,274627.83712631965
+Domestic | Taif,Domestic,Taif,2025-12-01,169293.0,200365.01099552718
+Domestic | Umluj,Domestic,Umluj,2025-01-01,16691.0,22811.55023255324
+Domestic | Umluj,Domestic,Umluj,2025-02-01,14966.0,21500.03911646906
+Domestic | Umluj,Domestic,Umluj,2025-03-01,17589.0,19151.035537400607
+Domestic | Umluj,Domestic,Umluj,2025-04-01,16415.0,19921.945428644172
+Domestic | Umluj,Domestic,Umluj,2025-05-01,19582.0,17720.42746142124
+Domestic | Umluj,Domestic,Umluj,2025-06-01,18634.0,22996.035584364734
+Domestic | Umluj,Domestic,Umluj,2025-07-01,20350.0,21340.202321725472
+Domestic | Umluj,Domestic,Umluj,2025-08-01,17121.0,19745.267167290214
+Domestic | Umluj,Domestic,Umluj,2025-09-01,14234.0,17991.941504601276
+Domestic | Umluj,Domestic,Umluj,2025-10-01,15921.0,17660.08057142194
+Domestic | Umluj,Domestic,Umluj,2025-11-01,19701.0,18591.128418505665
+Domestic | Umluj,Domestic,Umluj,2025-12-01,16726.0,18333.802150395863
+Domestic | Unayzah,Domestic,Unayzah,2025-01-01,48769.0,60190.82207329144
+Domestic | Unayzah,Domestic,Unayzah,2025-02-01,40649.0,58855.610026648115
+Domestic | Unayzah,Domestic,Unayzah,2025-03-01,40513.0,46937.63262445099
+Domestic | Unayzah,Domestic,Unayzah,2025-04-01,29071.0,52376.27781750121
+Domestic | Unayzah,Domestic,Unayzah,2025-05-01,37382.0,36574.41067527292
+Domestic | Unayzah,Domestic,Unayzah,2025-06-01,42751.0,50122.800655096995
+Domestic | Unayzah,Domestic,Unayzah,2025-07-01,43504.0,42256.02783415807
+Domestic | Unayzah,Domestic,Unayzah,2025-08-01,40738.0,47203.608470982406
+Domestic | Unayzah,Domestic,Unayzah,2025-09-01,31403.0,42379.4261114714
+Domestic | Unayzah,Domestic,Unayzah,2025-10-01,36540.0,45093.76993146983
+Domestic | Unayzah,Domestic,Unayzah,2025-11-01,46346.0,47714.79142583409
+Domestic | Unayzah,Domestic,Unayzah,2025-12-01,36044.0,44555.86068480748
+Domestic | Yanbu,Domestic,Yanbu,2025-01-01,76349.0,92104.04040279264
+Domestic | Yanbu,Domestic,Yanbu,2025-02-01,66863.0,87460.70716536815
+Domestic | Yanbu,Domestic,Yanbu,2025-03-01,50347.0,68624.47135381479
+Domestic | Yanbu,Domestic,Yanbu,2025-04-01,62145.0,67677.7742897914
+Domestic | Yanbu,Domestic,Yanbu,2025-05-01,71235.0,53108.702880343335
+Domestic | Yanbu,Domestic,Yanbu,2025-06-01,67381.0,72389.10319445735
+Domestic | Yanbu,Domestic,Yanbu,2025-07-01,78621.0,78337.82951798859
+Domestic | Yanbu,Domestic,Yanbu,2025-08-01,66876.0,73067.3419361273
+Domestic | Yanbu,Domestic,Yanbu,2025-09-01,54121.0,68343.44817244374
+Domestic | Yanbu,Domestic,Yanbu,2025-10-01,70578.0,65818.44290708064
+Domestic | Yanbu,Domestic,Yanbu,2025-11-01,83136.0,77140.76147708937
+Domestic | Yanbu,Domestic,Yanbu,2025-12-01,64459.0,72868.6505242364
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-01-01,88876.0,117270.70663916945
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-02-01,58436.0,90688.28603036352
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-03-01,73155.0,92910.04844419389
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-04-01,64939.0,75391.61917701388
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-05-01,48376.0,58070.61045425759
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-06-01,39997.0,81137.99093875173
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-07-01,46503.0,56825.59208374873
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-08-01,63045.0,49611.35480785301
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-09-01,40921.0,53659.506246109144
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-10-01,47993.0,51101.72079767184
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-11-01,28335.0,63704.68973112895
+Inbound | Al Ahsa,Inbound,Al Ahsa,2025-12-01,65465.0,52252.3303076923
+Inbound | Al Khobar,Inbound,Al Khobar,2025-01-01,108977.0,119576.63533200456
+Inbound | Al Khobar,Inbound,Al Khobar,2025-02-01,76464.0,122338.46889204398
+Inbound | Al Khobar,Inbound,Al Khobar,2025-03-01,64085.0,90469.4694046153
+Inbound | Al Khobar,Inbound,Al Khobar,2025-04-01,47520.0,83302.5149562252
+Inbound | Al Khobar,Inbound,Al Khobar,2025-05-01,72059.0,54489.897984784446
+Inbound | Al Khobar,Inbound,Al Khobar,2025-06-01,54796.0,79251.98287721691
+Inbound | Al Khobar,Inbound,Al Khobar,2025-07-01,34410.0,60291.45393784975
+Inbound | Al Khobar,Inbound,Al Khobar,2025-08-01,61628.0,56401.803265360584
+Inbound | Al Khobar,Inbound,Al Khobar,2025-09-01,48598.0,47642.60547846377
+Inbound | Al Khobar,Inbound,Al Khobar,2025-10-01,49784.0,52562.72121330261
+Inbound | Al Khobar,Inbound,Al Khobar,2025-11-01,37507.0,66105.39933087418
+Inbound | Al Khobar,Inbound,Al Khobar,2025-12-01,42514.0,64082.70606800821
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-01-01,16707.0,14036.983462571823
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-02-01,17163.0,13051.193475426853
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-03-01,13738.0,16457.443063476792
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-04-01,15834.0,16754.480566131093
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-05-01,12281.0,18655.07296104598
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-06-01,14079.0,18535.810138810797
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-07-01,15350.0,15081.974850520453
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-08-01,25706.0,13536.499486136536
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-09-01,15082.0,17812.196373306084
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-10-01,14427.0,19367.97880093173
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-11-01,9428.0,16000.442744520427
+Inbound | Al Qurayyat,Inbound,Al Qurayyat,2025-12-01,7188.0,12612.86855722174
+Inbound | Arar,Inbound,Arar,2025-01-01,27477.0,35958.33635666267
+Inbound | Arar,Inbound,Arar,2025-02-01,14680.0,28636.33197046561
+Inbound | Arar,Inbound,Arar,2025-03-01,7384.0,18541.12756984614
+Inbound | Arar,Inbound,Arar,2025-04-01,18602.0,11329.239113066
+Inbound | Arar,Inbound,Arar,2025-05-01,10729.0,15791.988492490525
+Inbound | Arar,Inbound,Arar,2025-06-01,16357.0,14185.921303896346
+Inbound | Arar,Inbound,Arar,2025-07-01,38934.0,18420.838402568912
+Inbound | Arar,Inbound,Arar,2025-08-01,36597.0,23202.180228414363
+Inbound | Arar,Inbound,Arar,2025-09-01,14797.0,26357.862812942858
+Inbound | Arar,Inbound,Arar,2025-10-01,40164.0,18112.798306487406
+Inbound | Arar,Inbound,Arar,2025-11-01,12144.0,28363.165565932843
+Inbound | Arar,Inbound,Arar,2025-12-01,26206.0,18113.100829749088
+Inbound | Buraydah,Inbound,Buraydah,2025-01-01,28981.0,17268.838065183456
+Inbound | Buraydah,Inbound,Buraydah,2025-02-01,20120.0,22090.56153399912
+Inbound | Buraydah,Inbound,Buraydah,2025-03-01,19834.0,18140.90470325762
+Inbound | Buraydah,Inbound,Buraydah,2025-04-01,8297.0,21582.515788114444
+Inbound | Buraydah,Inbound,Buraydah,2025-05-01,5352.0,16022.85356492249
+Inbound | Buraydah,Inbound,Buraydah,2025-06-01,7486.0,19871.40025602118
+Inbound | Buraydah,Inbound,Buraydah,2025-07-01,13956.0,8813.275221247712
+Inbound | Buraydah,Inbound,Buraydah,2025-08-01,19303.0,10298.598373123683
+Inbound | Buraydah,Inbound,Buraydah,2025-09-01,23541.0,14682.879791797215
+Inbound | Buraydah,Inbound,Buraydah,2025-10-01,10393.0,20936.952062516095
+Inbound | Buraydah,Inbound,Buraydah,2025-11-01,10427.0,16777.23228149616
+Inbound | Buraydah,Inbound,Buraydah,2025-12-01,11527.0,14416.944999863032
+Inbound | Dammam,Inbound,Dammam,2025-01-01,168356.0,137000.1144615894
+Inbound | Dammam,Inbound,Dammam,2025-02-01,111470.0,128661.75212300822
+Inbound | Dammam,Inbound,Dammam,2025-03-01,121534.0,112420.77914310627
+Inbound | Dammam,Inbound,Dammam,2025-04-01,78489.0,109245.26905791934
+Inbound | Dammam,Inbound,Dammam,2025-05-01,62497.0,75560.17775839876
+Inbound | Dammam,Inbound,Dammam,2025-06-01,64160.0,100029.37175189516
+Inbound | Dammam,Inbound,Dammam,2025-07-01,58124.0,85592.30379983674
+Inbound | Dammam,Inbound,Dammam,2025-08-01,79843.0,71612.04840001873
+Inbound | Dammam,Inbound,Dammam,2025-09-01,54690.0,69416.11022695454
+Inbound | Dammam,Inbound,Dammam,2025-10-01,54239.0,62873.383258801114
+Inbound | Dammam,Inbound,Dammam,2025-11-01,46888.0,70878.76393033643
+Inbound | Dammam,Inbound,Dammam,2025-12-01,83650.0,66812.74197862926
+Inbound | Hail,Inbound,Hail,2025-01-01,21828.0,19117.867256729864
+Inbound | Hail,Inbound,Hail,2025-02-01,8662.0,18880.13842473556
+Inbound | Hail,Inbound,Hail,2025-03-01,22502.0,17824.700627493057
+Inbound | Hail,Inbound,Hail,2025-04-01,6269.0,17041.615225290843
+Inbound | Hail,Inbound,Hail,2025-05-01,5491.0,11413.575695761885
+Inbound | Hail,Inbound,Hail,2025-06-01,13854.0,18365.087422688477
+Inbound | Hail,Inbound,Hail,2025-07-01,31163.0,11828.933220175015
+Inbound | Hail,Inbound,Hail,2025-08-01,25486.0,15805.212177629799
+Inbound | Hail,Inbound,Hail,2025-09-01,31099.0,23070.026690754243
+Inbound | Hail,Inbound,Hail,2025-10-01,20429.0,30047.95264073255
+Inbound | Hail,Inbound,Hail,2025-11-01,20298.0,17853.702054596368
+Inbound | Hail,Inbound,Hail,2025-12-01,23662.0,19925.261454965534
+Inbound | Jeddah,Inbound,Jeddah,2025-01-01,106441.0,196149.32502478268
+Inbound | Jeddah,Inbound,Jeddah,2025-02-01,163130.0,148416.942732467
+Inbound | Jeddah,Inbound,Jeddah,2025-03-01,114269.0,172483.10964463433
+Inbound | Jeddah,Inbound,Jeddah,2025-04-01,173805.0,110545.80415974597
+Inbound | Jeddah,Inbound,Jeddah,2025-05-01,210700.0,180049.61428979627
+Inbound | Jeddah,Inbound,Jeddah,2025-06-01,52489.0,158720.7158790075
+Inbound | Jeddah,Inbound,Jeddah,2025-07-01,165886.0,129231.3051916795
+Inbound | Jeddah,Inbound,Jeddah,2025-08-01,49319.0,158296.70713626724
+Inbound | Jeddah,Inbound,Jeddah,2025-09-01,96800.0,76745.29677641793
+Inbound | Jeddah,Inbound,Jeddah,2025-10-01,104755.0,115232.8892366145
+Inbound | Jeddah,Inbound,Jeddah,2025-11-01,90607.0,133398.4203196832
+Inbound | Jeddah,Inbound,Jeddah,2025-12-01,94260.0,133108.91982069804
+Inbound | Makkah,Inbound,Makkah,2025-01-01,2307359.0,1677054.8962938287
+Inbound | Makkah,Inbound,Makkah,2025-02-01,2146053.0,1724313.6173554305
+Inbound | Makkah,Inbound,Makkah,2025-03-01,2034169.0,1707774.8970069098
+Inbound | Makkah,Inbound,Makkah,2025-04-01,848159.0,1366833.969877999
+Inbound | Makkah,Inbound,Makkah,2025-05-01,42047.0,761113.860838541
+Inbound | Makkah,Inbound,Makkah,2025-06-01,1791351.0,393640.0148810861
+Inbound | Makkah,Inbound,Makkah,2025-07-01,1282329.0,415190.93042857014
+Inbound | Makkah,Inbound,Makkah,2025-08-01,1389241.0,526927.2663153409
+Inbound | Makkah,Inbound,Makkah,2025-09-01,1431057.0,1359397.2484562662
+Inbound | Makkah,Inbound,Makkah,2025-10-01,1612539.0,1600712.7494859544
+Inbound | Makkah,Inbound,Makkah,2025-11-01,1822573.0,1582648.224909809
+Inbound | Makkah,Inbound,Makkah,2025-12-01,2232380.0,1749260.8421035726
+Inbound | Other Eastern,Inbound,Other Eastern,2025-01-01,205353.0,164564.3577000956
+Inbound | Other Eastern,Inbound,Other Eastern,2025-02-01,113028.0,172885.8760751116
+Inbound | Other Eastern,Inbound,Other Eastern,2025-03-01,99267.0,113458.51784778706
+Inbound | Other Eastern,Inbound,Other Eastern,2025-04-01,71456.0,104999.81017113915
+Inbound | Other Eastern,Inbound,Other Eastern,2025-05-01,60652.0,64133.70318670721
+Inbound | Other Eastern,Inbound,Other Eastern,2025-06-01,73070.0,99202.72883591813
+Inbound | Other Eastern,Inbound,Other Eastern,2025-07-01,174113.0,79964.69921852942
+Inbound | Other Eastern,Inbound,Other Eastern,2025-08-01,118346.0,110618.48623443815
+Inbound | Other Eastern,Inbound,Other Eastern,2025-09-01,77428.0,101318.20175857341
+Inbound | Other Eastern,Inbound,Other Eastern,2025-10-01,62638.0,82910.80353307143
+Inbound | Other Eastern,Inbound,Other Eastern,2025-11-01,85423.0,80412.01880130274
+Inbound | Other Eastern,Inbound,Other Eastern,2025-12-01,116923.0,108977.46714161088
+Inbound | Other NB,Inbound,Other NB,2025-01-01,24963.0,23983.921695366793
+Inbound | Other NB,Inbound,Other NB,2025-02-01,14427.0,20374.555463424134
+Inbound | Other NB,Inbound,Other NB,2025-03-01,8783.0,16986.727271114298
+Inbound | Other NB,Inbound,Other NB,2025-04-01,16277.0,12264.774674908613
+Inbound | Other NB,Inbound,Other NB,2025-05-01,11034.0,16240.079173273622
+Inbound | Other NB,Inbound,Other NB,2025-06-01,15392.0,14459.493403886312
+Inbound | Other NB,Inbound,Other NB,2025-07-01,15357.0,16404.028244743622
+Inbound | Other NB,Inbound,Other NB,2025-08-01,20816.0,16464.30992574599
+Inbound | Other NB,Inbound,Other NB,2025-09-01,14850.0,19134.969358418835
+Inbound | Other NB,Inbound,Other NB,2025-10-01,15199.0,15740.321220290958
+Inbound | Other NB,Inbound,Other NB,2025-11-01,14636.0,19009.024959074944
+Inbound | Other NB,Inbound,Other NB,2025-12-01,12969.0,17050.14751665337
+Inbound | Riyadh,Inbound,Riyadh,2025-01-01,279274.0,285151.6594581152
+Inbound | Riyadh,Inbound,Riyadh,2025-02-01,212789.0,282808.0843239546
+Inbound | Riyadh,Inbound,Riyadh,2025-03-01,158920.0,228800.352216796
+Inbound | Riyadh,Inbound,Riyadh,2025-04-01,155391.0,158023.4615363062
+Inbound | Riyadh,Inbound,Riyadh,2025-05-01,94251.0,166883.80538766686
+Inbound | Riyadh,Inbound,Riyadh,2025-06-01,100535.0,189340.8449617879
+Inbound | Riyadh,Inbound,Riyadh,2025-07-01,154810.0,136430.62797192184
+Inbound | Riyadh,Inbound,Riyadh,2025-08-01,178886.0,151738.45261956053
+Inbound | Riyadh,Inbound,Riyadh,2025-09-01,143264.0,177374.37239358173
+Inbound | Riyadh,Inbound,Riyadh,2025-10-01,239776.0,181417.82743180764
+Inbound | Riyadh,Inbound,Riyadh,2025-11-01,251522.0,209198.48651774137
+Inbound | Riyadh,Inbound,Riyadh,2025-12-01,280411.0,237062.78933131837

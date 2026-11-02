@@ -1,0 +1,20 @@
+series,date,tourists,z,direction,explanation
+Inbound | Arar,2022-12-01,51.0,-5.161606466405028,lower than expected,Very small count (survey noise)
+Inbound | Other NB,2022-12-01,243.0,-4.292203353752121,lower than expected,Very small count (survey noise)
+Inbound | Al Qurayyat,2022-12-01,1.0,-4.091577146563476,lower than expected,Very small count (survey noise)
+Inbound | Al Qurayyat,2022-08-01,1.0,-3.9945422019922145,lower than expected,Very small count (survey noise)
+Domestic | Other Aseer,2022-06-01,86301.0,-3.825862342222159,lower than expected,Unexplained
+Domestic | BILJURASHI,2022-06-01,1219.0,-3.672995839262807,lower than expected,Unexplained
+Domestic | Al Bahah,2022-06-01,25712.0,-3.6721434320393587,lower than expected,Unexplained
+Domestic | Khamis Mushait,2022-06-01,52354.0,-3.588454891781458,lower than expected,Unexplained
+Domestic | Taif,2022-06-01,149640.0,-3.586788188325422,lower than expected,Hijri calendar shift
+Inbound | Makkah,2025-05-01,42047.0,-3.5727788316083915,lower than expected,Hijri calendar shift
+Domestic | Other Madinah,2022-11-01,3479.0,-3.509825703041113,lower than expected,Unexplained
+Domestic | Abha,2022-06-01,129808.0,-3.3336877110835283,lower than expected,Unexplained
+Domestic | Al Qurayyat,2022-06-01,13265.0,-3.288799266183984,lower than expected,Unexplained
+Inbound | Dammam,2022-01-01,27707.0,-3.1888471751469,lower than expected,Unexplained
+Domestic | Umluj,2022-06-01,9979.0,-3.1824339551234035,lower than expected,Unexplained
+Domestic | Other AlBaha,2022-06-01,2167.0,-3.115864202430498,lower than expected,Unexplained
+Domestic | Unayzah,2022-06-01,23697.0,-3.1152792015005604,lower than expected,Unexplained
+Domestic | Other Eastern,2022-06-01,187044.0,-3.091442928512139,lower than expected,Unexplained
+Inbound | Dammam,2021-03-01,8959.0,-3.0375410958043587,lower than expected,COVID-19 period
