@@ -15,8 +15,6 @@ services; low seasons waste capacity. This project:
    baseline, **Linear Regression**, **Linear Regression with PCA** and **Random Forest Regression**,
    using expanding-window time-series cross-validation and a final 2025 test year.
 
-All methods come from the CS316 course material, except Random Forest (the one extra model).
-
 Sustainability link: SDG 8 (stable jobs), SDG 11 (sustainable cities), SDG 12 (responsible consumption).
 
 ## 2. Dataset
