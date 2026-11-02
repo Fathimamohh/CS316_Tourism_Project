@@ -131,8 +131,3 @@ untouched. Details: notebook 03 §13.
 | One-hot encoding | NB03 §3 | `OneHotEncoder` for province |
 | PCA | NB03 §6 | 80/90/95/99 % variance experiments, explained-variance plot |
 | Extension (beyond lectures) | NB03 §7 | Random Forest Regression |
-
-## 9. Use of AI
-An AI assistant (Claude, Anthropic) was used to help write and debug code, run experiments and draft
-documentation. The team reviewed, executed and verified all code and results; see the report's
-*Use of AI* statement for details.
